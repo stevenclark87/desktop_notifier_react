@@ -1,0 +1,75 @@
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 120%;
+    font-weight: normal;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+h3 {
+    font-size: 200%;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 8% 0;
+}
+
+p {
+    margin-top: 2%;
+}
+
+.page-container {
+    width: 100%;
+    background-image: url(rectangle.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: #eee;
+}
+
+.signup-cta, .preferences-cta {
+    color: white;
+    text-align: center;
+    margin: 7% 0 5% 0;
+}
+
+.signup-container, .preferences-container {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 12%;
+    padding: 5%;
+}
+
+.subscribe_form, .preferences_form {
+    font-size: 18px;
+    color: #494949;
+    width: 50%;
+    padding-left: 3%;
+}
+
+input{
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+.check_boxes {
+    display: inline-block;
+}
+
+.check_box {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.form_label {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+input[type=text] {
+    width: 100%;
+}

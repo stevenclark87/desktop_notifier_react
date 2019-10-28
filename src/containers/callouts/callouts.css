@@ -1,0 +1,28 @@
+.callout-component-container {
+    margin-top: 90px;
+}
+
+.callout-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    grid-column-gap: 5%;
+    grid-row-gap: 50px;
+    margin: 0 auto;
+    line-height: 200%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.callout-container-heading {
+    text-align: center;
+}
+
+.callout {
+    max-width: 300px;
+}
+
+.callout img {
+    max-width: 55%;
+}
